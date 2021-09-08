@@ -1,6 +1,6 @@
 from tokenizers_HF import CharBPETokenizer, ByteLevelBPETokenizer
-vocab = "/home/sonwang/work/code/hfhfsong/data/bart_large/vocab.json"
-merges = "/home/sonwang/work/code/hfhfsong/data/bart_large/merges.txt"
+vocab = "../../data/bart_large/vocab.json"
+merges = "../../data/bart_large/merges.txt"
 tokenizer = CharBPETokenizer(vocab, merges)
 
 # And then encode:

@@ -892,7 +892,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "tokenizers-python"
+name = "tokenizers_HF-python"
 version = "0.9.4"
 dependencies = [
  "env_logger 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
