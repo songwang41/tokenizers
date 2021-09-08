@@ -1,4 +1,4 @@
-from ..tokenizers import Tokenizer, Encoding, AddedToken, InputSequence, EncodeInput
+from .. import Tokenizer, Encoding, AddedToken, InputSequence, EncodeInput
 
 from typing import List, Union, Tuple, Optional, Dict
 

@@ -1,4 +1,4 @@
-from ..tokenizers import (
+from .. import (
     Tokenizer,
     AddedToken,
     pre_tokenizers,
@@ -7,7 +7,7 @@ from ..tokenizers import (
     normalizers,
 )
 import os
-from ..tokenizers.models import Unigram
+from ..models import Unigram
 import json
 from .base_tokenizer import BaseTokenizer
 

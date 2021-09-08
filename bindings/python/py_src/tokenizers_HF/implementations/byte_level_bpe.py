@@ -1,4 +1,4 @@
-from ..tokenizers import (
+from .. import (
     Tokenizer,
     AddedToken,
     pre_tokenizers,
@@ -6,8 +6,8 @@ from ..tokenizers import (
     trainers,
     processors,
 )
-from ..tokenizers.models import BPE
-from ..tokenizers.normalizers import unicode_normalizer_from_str, Lowercase, Sequence
+from ..models import BPE
+from ..normalizers import unicode_normalizer_from_str, Lowercase, Sequence
 from .base_tokenizer import BaseTokenizer
 
 from typing import Optional, List, Union, Dict, Tuple
